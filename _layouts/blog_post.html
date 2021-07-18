@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="flex flex-col items-center min-h-screen px-8">
+    <h1 class="py-8 text-3xl font-bold text-purple-900">{{page.title}}</h1>
+    <div role="img" aria-label="image" style="background-image: url('{{page.image}}')"
+    class="w-full max-w-3xl h-72 bg-cover bg-no-repeat bg-center rounded-lg shadow-md"></div>
+    <div class="post_article">
+        <p><i class="fas fa-calendar-day"></i> {{ page.date | date: "%e %B %Y" }}</p>
+        <p>{{ page.description }}</p>
+    </div>
+    <article class="post_article">
+        {{ content }}
+    </article>
+</div>
