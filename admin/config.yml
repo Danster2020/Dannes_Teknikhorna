@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Danster2020/Danster2020.github.io
+  repo: Danster2020/Dannes_Teknikhorna
   branch: main
   accept_roles:
     - admin
