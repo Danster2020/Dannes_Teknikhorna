@@ -32,7 +32,7 @@
     }
 
     .post_article {
-      @apply mt-8 py-8 px-4 md:px-16 w-full max-w-2xl bg-gray-100 rounded-3xl;
+      @apply my-8 md:my-16 py-8 md:px-16 w-full max-w-2xl md:bg-gray-100 rounded-3xl;
 
       h1, h2, h3 {
         @apply mb-2 text-purple-900;
