@@ -7,6 +7,8 @@
 
 @import "tailwindcss/utilities";
 
+@import "animate.css";
+
 @layer components {
   @variants responsive {
     .preload * {
@@ -147,8 +149,11 @@
       @apply py-10 bg-gray-100;
 
       h2 {
-        @apply mb-10 uppercase font-bold text-3xl md:text-4xl text-center;
+        @apply mb-20 uppercase font-bold text-3xl md:text-4xl text-center text-gray-800;
       }
     }
+
+    /* animations */
+
   }
 }

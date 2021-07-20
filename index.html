@@ -7,7 +7,7 @@ id: "index"
 <div class="flex justify-center items-center py-10 md:py-20 mx-8">
     <!-- Intro -->
     <div class="text-4xl">
-        <h1 class="mb-4 font-bold text-purple-700">Dannes Teknikhörna</h1>
+        <h1 class="mb-4 font-bold text-purple-700 animate-animated animate-flipInX">Dannes Teknikhörna</h1>
         <p class="mb-4 text-lg text-gray-700">Här hittar du allt från mobilstyrda<br>
             lampor till 3D-printade dörrhandtag!
         </p>
@@ -28,11 +28,11 @@ id: "index"
 
 <section class="index_section bg-white">
     <h2 id="3d_utskifter">3D-utskrifter</h2>
-    <div class="flex justify-center">
+    <div id="img_grid" class="flex justify-center animate-animated">
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-2xl mx-4">
             {% for image in site.static_files %}
                 {% if image.path contains '3d_prints' %}
-                    <a href="{{ site.baseurl }}{{ image.path }}" role="img" aria-label="image" style="background-image: url('{{ site.baseurl }}{{ image.path }}')" loading="lazy"
+                    <a href="{{ site.baseurl }}{{ image.path }}" role="img" aria-label="image" style="background-image: url('{{ site.baseurl }}{{ image.path }}')"
                     class="flex-shrink-0 w-36 h-36 sm:w-40 sm:h-40 bg-cover bg-no-repeat bg-center rounded-lg hover:opacity-50"></a>
                 {% endif %}
             {% endfor %}

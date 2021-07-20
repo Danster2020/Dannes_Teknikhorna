@@ -14,6 +14,19 @@ resizeTimer = setTimeout(() => {
 }, 400);
 });
 
+// When user scrolls into view
+const observer = new IntersectionObserver(entries => {
+  // Loop over the entries
+  entries.forEach(entry => {
+    // If the element is visible
+    if (entry.isIntersecting) {
+      // Add the animation class
+      entry.target.classList.add('animate-fadeInUp');
+    }
+  });
+});
+observer.observe(document.querySelector('#img_grid'));
+
 function showExitIcon() {
     // Get the checkbox
     var checkBox = document.getElementById("nav_toggle");
