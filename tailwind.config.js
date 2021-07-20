@@ -1,4 +1,4 @@
-const withAnimations = require('animated-tailwindcss');
+const withAnimations = require("animated-tailwindcss");
 
 module.exports = withAnimations({
   purge: [
@@ -10,7 +10,7 @@ module.exports = withAnimations({
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Roboto', 'sans-serif']
+      sans: ["Roboto", "sans-serif"]
     },
     extend: {},
   },
