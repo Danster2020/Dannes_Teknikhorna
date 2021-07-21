@@ -1,6 +1,4 @@
-const withAnimations = require("animated-tailwindcss");
-
-module.exports = withAnimations({
+module.exports = {
   purge: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
@@ -18,4 +16,4 @@ module.exports = withAnimations({
     extend: {},
   },
   plugins: [],
-});
+}
