@@ -1,9 +1,10 @@
 module.exports = {
-  purge: {
-    content: ["./_site/**/*.html"],
-    css: ["./_site/assets/css/main.css"], // ./_site/css/site.css
-    defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-  },
+  purge: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './_posts/*.md',
+    './*.html',
+  ],
 
   darkMode: false, // or 'media' or 'class'
   theme: {

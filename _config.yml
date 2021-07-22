@@ -27,7 +27,3 @@ paginate: 5
 plugins:
   - jekyll-postcss
   - jekyll-paginate
-  - jekyll-purgecss
-
-#purgecss plugin
-css_dir: "assets/css" # defaults to "css"
