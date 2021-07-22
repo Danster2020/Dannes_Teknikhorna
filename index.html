@@ -32,8 +32,8 @@ id: "index"
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-2xl mx-4">
             {% for image in site.static_files %}
                 {% if image.path contains '3d_prints' %}
-                    <a href="{{ site.baseurl }}{{ image.path }}" role="img" aria-label="image" style="background-image: url('{{ site.baseurl }}{{ image.path }}')"
-                    class="flex-shrink-0 w-36 h-36 sm:w-40 sm:h-40 bg-cover bg-no-repeat bg-center rounded-lg hover:opacity-50"></a>
+                    <a href="{{ site.baseurl }}{{ image.path }}" role="img" aria-label="image" data-src="{{ site.baseurl }}{{ image.path }}" style="background-image: url('/assets/img/Spinner-1s-200px.gif')"
+                    class="lazyload flex-shrink-0 w-36 h-36 sm:w-40 sm:h-40 bg-cover bg-no-repeat bg-center rounded-lg hover:opacity-50"></a>
                 {% endif %}
             {% endfor %}
         </div>
