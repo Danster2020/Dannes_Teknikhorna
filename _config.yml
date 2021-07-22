@@ -30,4 +30,4 @@ plugins:
   - jekyll-purgecss
 
 #purgecss plugin
-css_dir: "assets" # defaults to "css"
+css_dir: "assets/css" # defaults to "css"
