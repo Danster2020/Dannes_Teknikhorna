@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   purge: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
@@ -6,7 +7,6 @@ module.exports = {
     './*.html',
     '._site/**/*.html'
   ],
-
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
