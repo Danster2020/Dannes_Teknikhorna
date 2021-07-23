@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " SV" }}">
+<html lang="{{ site.lang | default: "SV" }}">
 
 <head>
 
@@ -43,7 +43,6 @@
         document.getElementById("theme_icon").classList.add('fa-sun');
         document.getElementById("theme_icon").classList.remove('fa-moon');
 
-document.getElementById("MyElement").classList.remove('MyClass');
       } else {
         document.documentElement.classList.remove('dark')
         document.getElementById("theme_icon").classList.add('fa-moon');
@@ -73,9 +72,9 @@ document.getElementById("MyElement").classList.remove('MyClass');
   {% include footer.html %}
   <!-- scroll arrow -->
   <button id="scroll_arrow"
-    class="hidden fixed bottom-4 right-4 px-3 py-2 rounded-full shadow-lg bg-white hover:bg-purple-100"
+    class="hidden fixed bottom-4 right-4 px-3 py-2 rounded-full shadow-lg bg-white dark:bg-gray-700 hover:bg-purple-100"
     onclick="scrollToTop()" aria-label="scroll to top">
-    <i class="fas fa-arrow-up text-3xl text-purple-700"></i>
+    <i class="fas fa-arrow-up text-3xl text-purple-700 dark:text-purple-400"></i>
   </button>
 
   <script async src="/assets/js/script.js"></script>

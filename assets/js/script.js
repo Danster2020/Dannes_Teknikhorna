@@ -14,19 +14,6 @@ resizeTimer = setTimeout(() => {
 }, 400);
 });
 
-// When user scrolls into view
-const observer = new IntersectionObserver(entries => {
-  // Loop over the entries
-  entries.forEach(entry => {
-    // If the element is visible
-    if (entry.isIntersecting) {
-      // Add the animation class
-      entry.target.classList.add('animate__fadeInUp');
-    }
-  });
-});
-observer.observe(document.querySelector('#img_grid'));
-
 function showExitIcon() {
     // Get the checkbox
     var checkBox = document.getElementById("nav_toggle");
@@ -35,9 +22,11 @@ function showExitIcon() {
   
     // If the checkbox is checked, display the output text
     if (checkBox.checked == true){
-        hamburger_menu.className = "fas fa-times fa-2x";
+        hamburger_menu.classList.remove("fa-bars")
+        hamburger_menu.classList.add("fa-times")
     } else {
-        hamburger_menu.className = "fas fa-bars fa-2x";
+        hamburger_menu.classList.remove("fa-times")
+        hamburger_menu.classList.add("fa-bars")
     }
 }
 

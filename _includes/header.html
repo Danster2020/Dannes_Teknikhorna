@@ -5,9 +5,9 @@
 
     <div class="sticky bg-white dark:bg-gray-900 py-2 md:py-4 px-8 md:flex md:justify-between items-center">
       <div class="header_collection">
-        <a href="/" class="font-bold text-2xl text-purple-900">DTH</a>
+        <a href="/" class="font-bold text-2xl text-purple-900 dark:text-purple-600">DTH</a>
         <label for="nav_toggle" class="nav_toggle_label">
-          <i id="hamburger_menu" class="fas fa-bars fa-2x"></i>
+          <i id="hamburger_menu" class="fas fa-bars fa-2x text-purple-900 dark:text-purple-600"></i>
         </label>
       </div>
       <input type="checkbox" id="nav_toggle" class="nav_toggle" onclick="showExitIcon()" aria-hidden="true">
@@ -16,10 +16,7 @@
         <ul class="text-xl bg-white dark:bg-gray-900 py-4 md:py-0 shadow-md md:shadow-none">
           {% include menu_links.html %}
         </ul>
-        <label class="block relative cursor-pointer select-none ml-4">
-          <input id="theme_changer" class="absolute opacity-0 cursor-pointer h-0 w-0" type="checkbox" onclick="themeChange()">
-          <i id="theme_icon" class="fas fa-moon text-gray-800 dark:text-gray-200"></i>
-        </label>
+
       </nav>
     </div>
 </header>
