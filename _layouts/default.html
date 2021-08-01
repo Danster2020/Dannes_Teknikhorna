@@ -13,16 +13,15 @@
   <script>
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
     function checkThemePreference() {
-      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark')
-        document.getElementById("theme_changer").checked = true;
-        document.getElementById("theme_icon").classList.add('fa-sun');
-        document.getElementById("theme_icon").classList.remove('fa-moon');
 
+      if (localStorage.theme == null && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        localStorage.theme = 'dark'
+      }
+
+      if (localStorage.theme === 'dark') {
+        document.documentElement.classList.add('dark')
       } else {
         document.documentElement.classList.remove('dark')
-        document.getElementById("theme_icon").classList.add('fa-moon');
-        document.getElementById("theme_icon").classList.remove('fa-sun');
       }
     }
 
@@ -35,7 +34,23 @@
         localStorage.theme = 'light'
       }
       checkThemePreference();
+      updateThemeButton();
     }
+
+    function updateThemeButton() {
+
+      if (localStorage.theme == 'dark') {
+        document.getElementById("theme_changer").checked = true;
+        document.getElementById("theme_icon").classList.add('fa-sun');
+        document.getElementById("theme_icon").classList.remove('fa-moon');
+      } else {
+        document.getElementById("theme_changer").checked = false;
+        document.getElementById("theme_icon").classList.add('fa-moon');
+        document.getElementById("theme_icon").classList.remove('fa-sun');
+      }
+    }
+
+    checkThemePreference()
   </script>
 
   <!--fonts-->
@@ -63,7 +78,7 @@
 
 </head>
 
-<body class="preload dark:bg-gray-900" onload="checkThemePreference()">
+<body class="preload dark:bg-gray-900" onload="updateThemeButton()">
 
   {% include header.html %}
   {{ content }}

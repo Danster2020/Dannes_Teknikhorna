@@ -28,7 +28,7 @@ id: "index"
 
 <section class="index_section bg-white dark:bg-gray-900">
     <h2 id="3d_utskifter">3D-utskrifter</h2>
-    <div id="img_grid" class="flex justify-center animate__animated">
+    <div id="img_grid" class="flex justify-center">
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-2xl mx-4">
             {% for image in site.static_files %}
                 {% if image.path contains '3d_prints' %}
@@ -39,18 +39,3 @@ id: "index"
         </div>
     </div>
 </section>
-
-<script>
-    // When user scrolls into view
-    const observer = new IntersectionObserver(entries => {
-    // Loop over the entries
-    entries.forEach(entry => {
-        // If the element is visible
-        if (entry.isIntersecting) {
-        // Add the animation class
-        entry.target.classList.add('animate__fadeInUp');
-        }
-    });
-    });
-    observer.observe(document.querySelector('#img_grid'));
-</script>

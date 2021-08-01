@@ -1,6 +1,6 @@
 # _config.yml
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.dannesteknikhorna.se/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Dannes Teknikhörna" # the name of your site, e.g. ACME Corp.
 
@@ -21,9 +21,6 @@ enable_cookies: true
 #posts
 permalink: /blog/:title
 
-#pagnation plugin
-paginate: 5
-
 plugins:
   - jekyll-postcss
-  - jekyll-paginate
+  - jekyll-sitemap

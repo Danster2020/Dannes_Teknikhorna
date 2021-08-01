@@ -6,7 +6,7 @@ module.exports = {
     './*.html',
     '._site/**/*.html'
   ],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'class', // false or 'media' or 'class'
   theme: {
     fontFamily: {
       sans: ["Roboto", "sans-serif"]
