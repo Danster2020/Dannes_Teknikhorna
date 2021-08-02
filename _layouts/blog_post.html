@@ -3,9 +3,12 @@ layout: default
 ---
 
 <div class="flex flex-col items-center min-h-screen dark:bg-gray-800">
-    <h1 class="py-8 text-3xl font-bold text-purple-900 dark:text-purple-500">{{page.title}}</h1>
-    <div role="img" aria-label="image" style="background-image: url('{{page.image}}')"
-    class="w-full max-w-3xl h-72 bg-cover bg-no-repeat bg-center rounded-lg shadow-md"></div>
+    <h1 class="py-8 px-8 text-3xl font-bold text-purple-900 dark:text-purple-500">{{page.title}}</h1>
+    <div class="flex flex-col items-center w-full px-8">
+        <div role="img" aria-label="image" style="background-image: url('{{page.image}}')"
+        class="w-full max-w-3xl h-72 bg-cover bg-no-repeat bg-center rounded-lg shadow-md"></div>
+    </div>
+
 
     <article class="post_article">
         <div class="mb-1 text-gray-700 dark:text-gray-400"><i class="fas fa-calendar-day"></i> {{ page.date | date: "%e %B %Y" }}</div>
