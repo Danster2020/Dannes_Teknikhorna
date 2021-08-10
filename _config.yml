@@ -21,6 +21,14 @@ enable_cookies: true
 #posts
 permalink: /blog/:title
 
+# sitemap plugin
+defaults:
+  -
+    scope:
+      path: "**/veras.html"
+    values:
+      sitemap: false
+
 plugins:
   - jekyll-postcss
   - jekyll-sitemap
