@@ -2,6 +2,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "lazyload": "^2.0.0-rc.2",
+    "nth-check": "^2.0.1",
     "postcss-scss": "^4.0.0"
   },
   "devDependencies": {
