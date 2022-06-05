@@ -25,4 +25,4 @@ Plastlocket som sitter ovanpå sensorn satt för hårt emot sensorn vilket resul
 
 ## **Utbyte av temperatursensor (05-06-2022)**
 
-Efter många fungerande utskrifter gav lagningen på sladden upp och samma felmeddelande som innan dök upp (ingen signal från temperatursensorn). Jag beställde en ny sensor via Prusas onlinebutik och några dagar senare kom den genom brevlådan. Reparationen gick mycket smidigare än förväntat och tog ca 1 timme att plocka isär och bygga ihop. Efter en enkel omkalibrering av XYZ så var skrivaren igång igen.
+Efter många fungerande utskrifter gick lagningen på sladden sönder och samma felmeddelande som tidigare (ingen signal från temperatursensorn) visades på displayen. Jag beställde en ny sensor via Prusas onlinebutik och några dagar senare kom den genom brevlådan. Reparationen gick mycket smidigare än förväntat och tog ca 1 timme att plocka isär och bygga ihop. Efter en enkel omkalibrering av XYZ så var skrivaren igång igen.
