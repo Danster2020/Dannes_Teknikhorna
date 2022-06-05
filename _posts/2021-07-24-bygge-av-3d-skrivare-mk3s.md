@@ -21,4 +21,8 @@ Vanligaste lösningen är att man plockar isär hela bottenplattan av bädden oc
 
 Skrivaren använder en filamentsensor för att automatiskt mata in nytt filament vid byte av spole. Den används även för att detektera om filamenten tar slut under utskrift och kan därmed pausa utskriften och be användaren att sätta i nytt filament. Filamentsensorn är både optisk och mekaniskt men är tyvärr väldigt känslig.
 
-Plastlocket som sitter ovanpå sensorn satt för hårt emot sensorn vilket resulterade i att den trodde att filamentet var isatt fastän det inte var det. Det gick att lösa med att lägga ett par brickor mellan locket och sensorn samt att lossa på skruven lite. Inte den mest optimala lösningen dock eftersom sensorn kan även reagera på om man råkar peta till locket. Förhoppningsvis kommer detta åtgärdads till framtida skrivare.
+Plastlocket som sitter ovanpå sensorn satt för hårt emot sensorn vilket resulterade i att den trodde att filamentet var isatt fastän det inte var det. Det gick att lösa med att lägga ett par brickor mellan locket och sensorn samt att lossa på skruven lite. Inte den mest optimala lösningen dock eftersom sensorn kan även reagera på om man råkar peta till locket. Förhoppningsvis kommer detta åtgärdats till framtida skrivare.
+
+## **Utbyte av temperatursensor (05-06-2022)**
+
+Efter många fungerande utskrifter gav lagningen på sladden upp och samma felmeddelande som innan dök upp (ingen signal från temperatursensorn). Jag beställde en ny sensor via Prusas onlinebutik och några dagar senare kom den genom brevlådan. Reparationen gick mycket smidigare än förväntat och tog ca 1 timme att plocka isär och bygga ihop. Efter en enkel omkalibrering av XYZ så var skrivaren igång igen.
