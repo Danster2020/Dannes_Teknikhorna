@@ -6,6 +6,8 @@ description: Hemmagjord alkoholcider med kolsyrejäsning på flaska.
 ---
 ![Ciderflaska med egen etikett](/assets/blog_media/photo_2022-06-05_14-44-49-min.jpg)
 
+![Glasdamejeanne fylld med cider](/assets/blog_media/2022-10-24-20.14.07.jpg)
+
 # Recept
 
 ## Ingredienser
@@ -18,7 +20,7 @@ description: Hemmagjord alkoholcider med kolsyrejäsning på flaska.
 
 ## Instrument
 
-* Kärl
+* Kärl (Glasdamejeanne)
 * Pumphävert (valfri)
 * Kork med vattenlås
 * Flaskor
