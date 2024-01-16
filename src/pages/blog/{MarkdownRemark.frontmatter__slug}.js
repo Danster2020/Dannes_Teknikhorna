@@ -38,11 +38,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
+        image
         description
       }
     }
