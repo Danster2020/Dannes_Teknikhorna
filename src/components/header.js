@@ -11,13 +11,13 @@ export const Links = () => {
         <Link to="/" activeClassName="">Hem</Link>
       </li>
       <li className="">
-        <Link to="/motesprotokoll" activeClassName="">Projekt</Link>
+        <Link to="/projekt" activeClassName="">Projekt</Link>
       </li>
       <li className="">
-        <Link to="/motesprotokoll" activeClassName="">3D-utskrifter</Link>
+        <Link to="/utskrifter" activeClassName="">3D-utskrifter</Link>
       </li>
       <li className="">
-        <Link to="/motesprotokoll" activeClassName="">Om</Link>
+        <Link to="/om" activeClassName="">Om</Link>
       </li>
     </>
   );

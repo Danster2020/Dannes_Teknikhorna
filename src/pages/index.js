@@ -20,7 +20,7 @@ const IndexPage = () => (
         <p className="text-2xl md:text-3xl lg:text-4xl mt-12 text-white">
           Här hittar du allt från mobilstyrda <br></br> lampor till 3D-printade dörrhandtag!
         </p>
-        <Link to="/">
+        <Link to="/projekt">
           <div className="inline-block px-24 py-2 mt-12 text-white border-2 border-def_purple_2 rounded-full">
             Mina projekt
           </div>
@@ -36,7 +36,7 @@ const IndexPage = () => (
     <FeaturedPosts></FeaturedPosts>
 
     <section className="flex flex-col md:flex-row items-center md:justify-center space-y-10 md:space-y-0 md:space-x-10 lg:space-x-20 py-40 text-white">
-      <BoxLink title="3D-utskrifter" img_name="3d_prints" page_url="/3d_utskifter"></BoxLink>
+      <BoxLink title="3D-utskrifter" img_name="3d_prints" page_url="/utskrifter"></BoxLink>
       <BoxLink title="Projekt" img_name="projekt" page_url="/projekt"></BoxLink>
       <BoxLink title="Om" img_name="daniel_prof" page_url="/om"></BoxLink>
     </section>
