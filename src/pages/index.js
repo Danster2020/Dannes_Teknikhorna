@@ -35,7 +35,7 @@ const IndexPage = () => (
 
     <FeaturedPosts></FeaturedPosts>
 
-    <section className="flex flex-col md:flex-row items-center md:justify-center space-y-10 md:space-y-0 md:space-x-20 py-40 text-white">
+    <section className="flex flex-col md:flex-row items-center md:justify-center space-y-10 md:space-y-0 md:space-x-10 lg:space-x-20 py-40 text-white">
       <BoxLink title="3D-utskrifter" img_name="3d_prints" page_url="/3d_utskifter"></BoxLink>
       <BoxLink title="Projekt" img_name="projekt" page_url="/projekt"></BoxLink>
       <BoxLink title="Om" img_name="daniel_prof" page_url="/om"></BoxLink>

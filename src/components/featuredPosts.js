@@ -19,7 +19,7 @@ const FeaturedPosts = () => {
             title
             image {
               childImageSharp {
-                gatsbyImageData(width: 200)
+                gatsbyImageData(width: 1000)
               }
             }
             description
