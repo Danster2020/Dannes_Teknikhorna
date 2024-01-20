@@ -35,16 +35,16 @@ const FeaturedPosts = () => {
     return (
         <>
             {posts.map(({ node }, index) => (
-                <section key={node.id} className={`flex flex-col items-center pb-10 text-white ${index % 2 === 0 ? 'bg-black' : 'bg-def_purple_1'}`}>
-                    <div className="mt-10 rounded-lg rotate-6">
+                <section key={node.id} className={`flex flex-col items-center py-16 text-white ${index % 2 === 0 ? 'bg-black' : 'bg-def_purple_3'}`}>
+                    <div className=" rounded-lg rotate-6">
                         <GatsbyImage className="w-52 h-64 rounded-lg" objectFit="cover" image={getImage(node.frontmatter.image)} alt="" />
                     </div>
                     <div className=" text-center">
-                        <h2 className="text-3xl md:text-4xl lg:text-5xl mx-10 mt-5">{node.frontmatter.title}</h2>
-                        <p className="mx-20 mt-5 text-neutral-400 max-w-md">{node.frontmatter.description}</p>
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl mx-10 mt-5">{node.frontmatter.title}</h2>
+                        <p className="mx-20 mt-5 text-neutral-300 max-w-md">{node.frontmatter.description}</p>
                         <Link to={"/blog/" + node.frontmatter.slug}>
                             <div className="inline-block px-24 py-2 mt-10 text-white border-2 bg-def_purple_2 border-def_purple_2 rounded-full">
-                                Till projekt
+                                Till projektet
                             </div>
                         </Link>
                     </div>

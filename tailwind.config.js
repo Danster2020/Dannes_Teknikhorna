@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         def_purple_1: '#1A122B',
         def_purple_2: '#5200FF',
+        def_purple_3: '#322253'
       },
     },
   },

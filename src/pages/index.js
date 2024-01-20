@@ -5,11 +5,12 @@ import { StaticImage } from "gatsby-plugin-image"
 import Header from "../components/header"
 import Seo from "../components/seo"
 import FeaturedPosts from "../components/featuredPosts"
+import BoxLink from "../components/boxLink"
 
 const IndexPage = () => (
   <>
 
-<Header/>
+    <Header />
 
     <div className="flex mb-20">
       <div className="ml-10 lg:ml-20">
@@ -32,8 +33,13 @@ const IndexPage = () => (
       </div>
     </div>
 
-  <FeaturedPosts></FeaturedPosts>
+    <FeaturedPosts></FeaturedPosts>
 
+    <section className="flex flex-col md:flex-row items-center md:justify-center space-y-10 md:space-y-0 md:space-x-20 py-40 text-white">
+      <BoxLink title="3D-utskrifter" img_name="3d_prints" page_url="/3d_utskifter"></BoxLink>
+      <BoxLink title="Projekt" img_name="projekt" page_url="/projekt"></BoxLink>
+      <BoxLink title="Om" img_name="daniel_prof" page_url="/om"></BoxLink>
+    </section>
 
   </>
 )
