@@ -1,6 +1,6 @@
 ---
 slug: ekonomiapp
-image: screenshot_7.png
+image: images/screenshot_7.png
 title: Ekonomiappen
 description: Webbapplikation skapad med hjälp av Flask, Heroku och Tailwind CSS.
 ---
