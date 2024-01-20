@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "../components/header"
 import Seo from "../components/seo"
+import FeaturedPosts from "../components/featuredPosts"
 
 const IndexPage = () => (
   <>
@@ -31,39 +32,9 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <section className="flex flex-col items-center pb-10 bg-black text-white">
-      <div className="mt-10 bg-red-800 rounded-lg rotate-6">
-        <StaticImage className="w-52 h-64 rounded-lg" objectFit="cover" src="../media/images/peakey.jpg" alt="" />
-      </div>
-      <div className=" text-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl mx-10 mt-5">Ekonomiappen</h2>
-        <p className="mx-20 mt-5 text-neutral-400 max-w-md">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-        </p>
-        <Link to="/">
-          <div className="inline-block px-24 py-2 mt-10 text-white border-2 bg-def_purple_2 border-def_purple_2 rounded-full">
-            Till projekt
-          </div>
-        </Link>
-      </div>
-    </section>
+  <FeaturedPosts></FeaturedPosts>
 
-    <section className="flex flex-col items-center pb-10 bg-def_purple_1 text-white">
-      <div className="mt-10 bg-red-800 rounded-lg rotate-6">
-        <StaticImage className="w-52 h-64 rounded-lg" objectFit="cover" src="../media/images/peakey.jpg" alt="" />
-      </div>
-      <div className=" text-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl mx-10 mt-5">Ekonomiappen</h2>
-        <p className="mx-20 mt-5 text-neutral-400 max-w-md">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-        </p>
-        <Link to="/">
-          <div className="inline-block px-24 py-2 mt-10 text-white border-2 bg-def_purple_2 border-def_purple_2 rounded-full">
-            Till projekt
-          </div>
-        </Link>
-      </div>
-    </section>
+
   </>
 )
 
