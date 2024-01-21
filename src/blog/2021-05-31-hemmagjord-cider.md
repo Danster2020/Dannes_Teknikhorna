@@ -4,10 +4,11 @@ image: images/screenshot-at-may-31-22-52-59.png
 title: Hemmagjord cider
 description: Hemmagjord alkoholcider med kolsyrejäsning på flaska.
 featured: -1
+published: 2021-05-31
 ---
-![Ciderflaska med egen etikett](/assets/blog_media/photo_2022-06-05_14-44-49-min.jpg)
+![Ciderflaska med egen etikett](./images/photo_2022-06-05_14-44-49-min.jpg)
 
-![Glasdamejeanne fylld med cider](/assets/blog_media/2022-10-24-20.14.07.jpg)
+![Glasdamejeanne fylld med cider](./images/2022-10-24-20.14.07.jpg)
 
 # Recept
 
@@ -53,7 +54,7 @@ featured: -1
 
 I de två första batcherna så stoppade jag aldrig kolsyrejäsningen. Det resulterade i för högt tryck i en av flaskorna som sedan exploderade (flaskbotten flög av).
 
-![söndrig flaska](/assets/blog_media/img_2693.jpg)
+![söndrig flaska](./images/img_2693.jpg)
 
 Smaken påverkas också av den eviga jäsningen. Ju mer det jäser desto mer socker äts upp och gör cidern torrare. Till slut smakar det nästan bara jäst. Min rekommendation är då att endast jäsa i några dagar och sedan pastörisera cidern eller tillsätt jäststopp.
 
@@ -63,4 +64,4 @@ Om man ska använda pumphävert så får man vara försiktig med det automatiska
 
 Har man tillgång till en 3D-skrivare så kan jag rekommendera en [slangklämma](https://www.thingiverse.com/thing:28447) för att bättre kontrollera och stoppa flödet.
 
-![slangklämma](/assets/blog_media/screenshot-at-may-31-20-21-55.png "https://www.thingiverse.com/thing:28447")
+![slangklämma](./images/screenshot-at-may-31-20-21-55.png "https://www.thingiverse.com/thing:28447")

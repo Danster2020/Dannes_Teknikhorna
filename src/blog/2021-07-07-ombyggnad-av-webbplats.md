@@ -4,6 +4,7 @@ image: images/screenshot-at-jul-07-15-41-31.png
 title: Ombyggnad av webbplats
 description: Ombyggnad av webbplats från dynamisk till statisk med Jekyll.
 featured: 2
+published: 2021-07-07
 ---
 # Bakgrund
 

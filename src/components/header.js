@@ -30,10 +30,6 @@ export const MobileNav = () => {
     setOpen(false);
   });
 
-  // const ref = useClickAway(() => {
-  //   setIsOpen(false);
-  // });
-
   return (
     <>
       <div className="lg:hidden text-white text-lg">
@@ -66,7 +62,7 @@ export const DesktopNav = () => {
   return (
     <>
       <div className="hidden lg:block">
-        <ul className="flex space-x-6 justify-end text-xl font-light mr-10 mt-10 text-white">
+        <ul className="flex space-x-6 justify-end text-xl font-light mr-10 mt-10 mb-10 text-white">
           <Links />
         </ul>
       </div>

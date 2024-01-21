@@ -13,8 +13,8 @@ const IndexPage = () => (
     <Header />
 
     <div className="flex mb-20">
-      <div className="ml-10 lg:ml-20">
-        <h1 className="inline-block text-4xl md:text-5xl lg:text-6xl mt-24 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3B2468] via-def_purple_2 to-[#3B2468]">
+      <div className="ml-10 lg:ml-20 mt-14">
+        <h1 className="inline-block text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3B2468] via-def_purple_2 to-[#3B2468]">
           Välkommen till min <br></br> teknikhörna!
         </h1>
         <p className="text-2xl md:text-3xl lg:text-4xl mt-12 text-white">
