@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Seo from "../components/seo"
 import FeaturedPosts from "../components/featuredPosts"
 import BoxLink from "../components/boxLink"
+import Footer from "../components/footer"
 
 const IndexPage = () => (
   <>
@@ -42,6 +43,8 @@ const IndexPage = () => (
       <BoxLink title="Projekt" img_name="projekt" page_url="/projekt"></BoxLink>
       <BoxLink title="Om" img_name="daniel_prof" page_url="/om"></BoxLink>
     </section>
+
+    <Footer />
 
   </>
 )
