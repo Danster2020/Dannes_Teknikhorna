@@ -8,6 +8,20 @@ import FeaturedPosts from "../components/featuredPosts"
 import BoxLink from "../components/boxLink"
 import Footer from "../components/footer"
 
+import { motion } from "framer-motion"
+
+const scale_bounce = {
+  scale: 1.2,
+  transition: {
+    duration: 0.3,
+    type: "spring",
+    stiffness: 260,
+    damping: 20
+  },
+}
+
+const tap_scale = { scale: 0.9 }
+
 const IndexPage = () => (
   <>
 
@@ -15,9 +29,16 @@ const IndexPage = () => (
 
     <section className="flex gap-x-60 pb-60 pt-20 md:pt-0 2xl:pt-20 justify-center lg:min-h-fit">
       <div className="flex flex-col ml-10 lg:ml-20 mt-14">
-        <h1 className="inline-block text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3B2468] via-def_purple_2 to-[#3B2468]">
+
+        <motion.h1 initial={{ opacity: 0 }} className="inline-block text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3B2468] via-def_purple_2 to-[#3B2468]"
+          whileInView={{
+            opacity: 1,
+            transition: {
+              duration: 1.5,
+            },
+          }}>
           Välkommen till min <br></br> teknikhörna!
-        </h1>
+        </motion.h1>
         <p className="text-2xl md:text-3xl lg:text-4xl mt-12 text-white">
           Här hittar du allt från mobilstyrda <br></br> lampor till 3D-printade dörrhandtag!
         </p>
@@ -38,13 +59,24 @@ const IndexPage = () => (
 
     <FeaturedPosts></FeaturedPosts>
 
+
+
     <section className="flex flex-col md:flex-row items-center md:justify-center space-y-10 md:space-y-0 md:space-x-10 lg:space-x-20 py-40 text-white">
-      <BoxLink title="3D-utskrifter" img_name="3d_prints" page_url="/utskrifter"></BoxLink>
-      <BoxLink title="Projekt" img_name="projekt" page_url="/projekt"></BoxLink>
-      <BoxLink title="Om" img_name="daniel_prof" page_url="/om"></BoxLink>
+      <motion.div whileHover={scale_bounce} whileTap={tap_scale}>
+        <BoxLink title="3D-utskrifter" img_name="3d_prints" page_url="/utskrifter"></BoxLink>
+      </motion.div>
+      <motion.div whileHover={scale_bounce} whileTap={tap_scale}>
+        <BoxLink title="Projekt" img_name="projekt" page_url="/projekt"></BoxLink>
+      </motion.div>
+      <motion.div whileHover={scale_bounce} whileTap={tap_scale}>
+        <BoxLink title="Om" img_name="daniel_prof" page_url="/om"></BoxLink>
+      </motion.div>
     </section>
 
+
+
     <Footer />
+
 
   </>
 )
