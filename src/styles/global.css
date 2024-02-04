@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @layer base {
     body {
         @apply bg-def_purple_1 text-white;
@@ -9,22 +11,8 @@
 
     .post_article {
         /* @apply my-8 md:my-16 py-8 px-8 md:px-16 w-full max-w-2xl bg-gray-100 dark:bg-gray-900 rounded-3xl; */
-  
-        /* h1, h2, h3 {
-          @apply mb-2 text-purple-900 dark:text-purple-600;
-        }
-  
-        h1 {
-          @apply text-3xl;
-        }
-  
-        h2 {
-          @apply text-2xl;
-        }
-  
-        h3 {
-          @apply text-xl;
-        } */
+
+        /* @apply font-outfit prose-img:block prose-img:object-cover; */
   
         /* p, ul, ol {
           @apply mb-4 text-base text-gray-800 dark:text-gray-200;
@@ -41,9 +29,9 @@
         li {
           @apply mb-1;
         } */
-  
-        img {
-          @apply rounded-md;
-        }
+
+        /* img {
+          @apply mx-4;
+        } */
       }
 }

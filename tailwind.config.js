@@ -11,6 +11,9 @@ module.exports = {
         def_purple_2: '#5200FF',
         def_purple_3: '#322253'
       },
+      fontFamily: {
+        'outfit': ['Outfit'],
+      },
     },
   },
   plugins: [

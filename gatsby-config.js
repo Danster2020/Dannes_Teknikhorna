@@ -11,6 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `Dannes Teknikhörna`,
     description: `webbplats där du hittar allt från mobilstyrda lampor till 3D-printade dörrhandtag!`,
+    lang: `se`,
     author: `Daniel Bleckert`,
     siteUrl: `https://dannesteknikhorna.se`,
   },
