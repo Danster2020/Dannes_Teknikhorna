@@ -32,7 +32,7 @@ export const MobileNav = () => {
 
   return (
     <>
-      <div className="lg:hidden text-white text-lg">
+      <div className="lg:hidden text-white text-xl">
         <div ref={ref} className="flex justify-end">
           <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
           {isOpen && (
