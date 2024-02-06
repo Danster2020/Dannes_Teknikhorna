@@ -9,7 +9,7 @@ published: 2021-07-24
 ---
 Skrivaren kom som ett kit och tog lite mindre än en vecka att bygga ihop (med kalibrering och programvara). Efter det var det i stort sett bara att mata in ett filament och trycka på skriv ut så skötte den allt utan problem från start till slut.
 
-![](/assets/blog_media/img_1793_original.jpg)
+![skrivare](./images/img_1793_original.jpg)
 
 # **Några Problem**
 
