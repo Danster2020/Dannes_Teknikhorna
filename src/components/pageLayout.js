@@ -11,7 +11,7 @@ function pageLayout({ children, page_title }) {
     return (
         <>
             <Header></Header>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl mt-10 mb-20 text-center">{page_title}</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl mt-20 md:mt-10 mb-20 text-center">{page_title}</h1>
             {children}
             <Footer></Footer>
         </>

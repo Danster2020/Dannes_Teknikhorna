@@ -38,7 +38,7 @@ export default function Template({ data }) {
         }}>
           <div className="flex flex-col items-center mb-10">
             <div className="font-outfit mx-10">
-              <h1 className="mt-10 mb-5 text-3xl md:text-4xl lg:text-5xl font-medium">{frontmatter.title}</h1>
+              <h1 className="mt-24 md:mt-10 mb-5 text-3xl md:text-4xl lg:text-5xl font-medium">{frontmatter.title}</h1>
               <p className="mb-5 font-light text-lg">{frontmatter.description}</p>
               <span className="inline-block px-4 py-1 bg-blue-950 border-2 border-blue-900 text-blue-300 rounded-full"><FontAwesomeIcon icon="fa-solid fa-calendar-day" className="pr-2" />{frontmatter?.published}</span>
             </div>
