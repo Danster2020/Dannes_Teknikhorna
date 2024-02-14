@@ -9,16 +9,16 @@ import { motion } from "framer-motion"
 
 const UtskrifterPage = () => {
     const data = useStaticQuery(graphql`
-    query {
-        allFile(filter: { relativeDirectory: { eq: "prints" } }) {
-            nodes {
+    {
+        allFile(filter: {relativeDirectory: {eq: "prints"}}, sort: {name: DESC}) {
+          nodes {
             childImageSharp {
-                gatsbyImageData
+              gatsbyImageData
             }
             name
-            }
+          }
         }
-    }
+      }
     `);
 
     const [modalWindow, setModalWindow] = useState(false)

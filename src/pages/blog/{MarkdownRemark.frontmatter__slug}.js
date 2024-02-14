@@ -53,7 +53,7 @@ export default function Template({ data }) {
 
 
       <div className="font-outfit flex flex-col items-center bg-neutral-900">
-        <article className="font-outfit prose prose-invert md:prose-lg lg:prose-xl prose-headings:text-purple-400 prose-a:text-teal-400 mx-8 md:mx-0 p-10 text-gray-100 post_article prose-img:block prose-img:mx-4 prose-img:rounded-lg">
+        <article className="font-outfit prose prose-invert md:prose-lg lg:prose-xl prose-headings:text-purple-400 prose-a:text-blue-400 mx-8 md:mx-0 p-10 text-gray-100 post_article prose-img:block prose-img:mx-4 prose-img:rounded-lg">
           <div className="" dangerouslySetInnerHTML={{ __html: html }} />
         </article>
       </div>
