@@ -1,8 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
-import { Squash as Hamburger } from "hamburger-react";
-import { AnimatePresence, motion } from "framer-motion";
-import { useClickAway } from "@uidotdev/usehooks";
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
@@ -37,8 +33,8 @@ const Footer = () => {
                     <div>
                         <div className="text-lg uppercase font-semibold">Medier</div>
                         <ul className="flex gap-4 mt-2 items-center">
-                            <li className=""><a className="text-4xl" title="Github" href="https://github.com/Danster2020" target="blank"><FontAwesomeIcon icon="fa-brands fa-github" /></a></li>
-                            <li className=""><a className="text-4xl" title="LinkedIn" href="https://se.linkedin.com/in/daniel-bleckert-b8a3a9159" target="blank"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a></li>
+                            <li className=""><a className="text-4xl" title="Github" aria-label="Github" href="https://github.com/Danster2020" target="blank"><FontAwesomeIcon icon="fa-brands fa-github" /></a></li>
+                            <li className=""><a className="text-4xl" title="LinkedIn" aria-label="LinkedIn" href="https://se.linkedin.com/in/daniel-bleckert-b8a3a9159" target="blank"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a></li>
                         </ul>
                     </div>
                 </div>

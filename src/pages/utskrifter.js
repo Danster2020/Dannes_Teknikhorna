@@ -4,8 +4,6 @@ import React, { useState } from 'react';
 import PageLayout from "../components/pageLayout"
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
-import { motion } from "framer-motion"
-
 
 const UtskrifterPage = () => {
     const data = useStaticQuery(graphql`
@@ -41,7 +39,7 @@ const UtskrifterPage = () => {
             <div className="fixed top-0 left-0 z-20 w-full h-screen bg-black bg-opacity-80" onClick={() => { handleModalClose() }}>
                 <div className="relative flex flex-col items-center justify-center h-full mx-4">
                     <div className='flex max-w-xl w-full'>
-                        <button className='inline-block mb-4 px-4 py-1 bg-def_purple_1 text-white border-2 border-def_purple_2 rounded-full' onClick={() => { handleModalClose() }}>Stäng</button>
+                        <button tabIndex="0" className='inline-block mb-4 px-4 py-1 bg-def_purple_1 text-white border-2 border-def_purple_2 rounded-full' onClick={() => { handleModalClose() }}>Stäng</button>
                     </div>
                     <GatsbyImage
                         className="max-w-xl z-30 max-h-[30rem] md:max-h-[50rem] rounded-lg"

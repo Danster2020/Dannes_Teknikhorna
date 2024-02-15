@@ -1,9 +1,6 @@
 import * as React from "react"
 
 import PageLayout from "../components/pageLayout"
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { useStaticQuery, graphql } from "gatsby";
-
 
 const OmPage = () => {
 
