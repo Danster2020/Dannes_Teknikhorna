@@ -27,7 +27,7 @@ const IndexPage = () => (
 
     <Header />
 
-    <section className="flex gap-x-60 pb-60 pt-32 md:pt-40 2xl:pt-20 justify-center lg:min-h-fit">
+    <section className="flex gap-x-60 pb-60 pt-32 md:pt-40 lg:pt-10 2xl:pt-20 justify-center lg:min-h-fit">
       <div className="flex flex-col ml-10 lg:ml-20 mt-14">
 
         <motion.h1 initial={{ opacity: 0 }} className="inline-block text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3B2468] via-def_purple_2 to-[#3B2468]"

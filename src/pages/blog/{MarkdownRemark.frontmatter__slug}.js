@@ -36,7 +36,7 @@ export default function Template({ data }) {
             duration: 0.5,
           },
         }}>
-          <div className="flex flex-col items-center mb-10">
+          <div className="flex flex-col items-center mb-10 md:pt-20 lg:pt-0">
             <div className="font-outfit mx-10">
               <h1 className="mt-24 md:mt-10 mb-5 text-3xl md:text-4xl lg:text-5xl font-medium">{frontmatter.title}</h1>
               <p className="mb-5 font-light text-lg">{frontmatter.description}</p>
@@ -52,7 +52,7 @@ export default function Template({ data }) {
       </div>
 
 
-      <div className="font-outfit flex flex-col items-center bg-neutral-900">
+      <div className="font-outfit flex flex-col items-center bg-black">
         <article className="font-outfit prose prose-invert md:prose-lg lg:prose-xl prose-headings:text-purple-400 prose-a:text-blue-400 mx-8 md:mx-0 p-10 text-gray-100 post_article prose-img:block prose-img:mx-4 prose-img:rounded-lg">
           <div className="" dangerouslySetInnerHTML={{ __html: html }} />
         </article>

@@ -75,12 +75,12 @@ const ProjektPage = () => {
       <PageLayout page_title={page_title}>
         <div className="flex justify-center">
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 gap-10"
+            className="grid grid-cols-1 md:grid-cols-2 gap-10 mx-10 md:mx-10"
             variants={container}
             initial="hidden"
             animate="visible">
             {posts.map(({ node }, index) => (
-              <motion.div key={index} to={"/blog/" + node.frontmatter.slug} className="max-w-md mx-10 md:mx-0" variants={item} whileHover={scale_bounce}>
+              <motion.div key={index} to={"/blog/" + node.frontmatter.slug} className="max-w-md" variants={item} whileHover={scale_bounce}>
                 <Link key={index} to={"/blog/" + node.frontmatter.slug} >
                   <div key={node.id} className="flex flex-col bg-[#2D8FA9] bg-opacity-10 p-4 border-2 border-gray-700 rounded-2xl">
                     <h2 className="mb-4 text-lg md:text-xl lg:text-2xl text-[#DDF5FD] font-bold">{node.frontmatter.title}</h2>

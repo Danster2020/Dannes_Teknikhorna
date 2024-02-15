@@ -33,7 +33,7 @@ export const MobileNav = () => {
   return (
     <>
       <div className="fixed top-0 z-10 lg:hidden w-full h-16 backdrop-blur-lg bg-def_purple_1/70"></div>
-      <div className="fixed top-4 z-20 mb lg:hidden flex justify-between items-center">
+      <div className="fixed top-4 z-20 lg:hidden flex justify-between items-center">
         <div className="">
           <Link className="text-3xl font-bold ml-4 text-violet-600" to="/">DTH</Link>
         </div>
