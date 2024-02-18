@@ -1,2 +1,0 @@
-# Dannes_Teknikhorna
- 
