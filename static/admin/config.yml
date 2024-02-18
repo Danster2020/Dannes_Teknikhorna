@@ -11,10 +11,9 @@ media_folder: src/blog/images
 
 collections:
   - label: "Projekt"
-    name: "Blog-posts"
+    name: "blog_posts"
     folder: "src/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {
           name: "slug",
