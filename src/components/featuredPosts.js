@@ -9,7 +9,7 @@ const FeaturedPosts = () => {
   const data = useStaticQuery(graphql`
   query {
     allMarkdownRemark(
-      filter: { frontmatter: { featured: { ne: -1 } } }
+      filter: { frontmatter: { featured: { ne: "-1" } } }
     ) {
       edges {
         node {

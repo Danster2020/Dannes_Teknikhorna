@@ -3,7 +3,7 @@ slug: hemmagjord-cider
 image: images/screenshot-at-may-31-22-52-59.png
 title: Hemmagjord cider
 description: Hemmagjord alkoholcider med kolsyrejäsning på flaska.
-featured: -1
+featured: "-1"
 published: 2021-05-31
 ---
 ![Ciderflaska med egen etikett](./images/photo_2022-06-05_14-44-49-min.jpg)

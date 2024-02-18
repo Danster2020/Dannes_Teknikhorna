@@ -6,7 +6,7 @@ backend:
   repo: Danster2020/Dannes_Teknikhorna
   branch: main
 
-media_folder: src/blog/images
+media_folder: /images
 # public_folder: /uploads
 
 collections:
@@ -50,4 +50,4 @@ collections:
           default: "-1",
           hint: "Ordning på indexsidan. '-1': ej featured.",
         }
-      - { name: "published", label: "Publiserad", widget: "datetime" }
+      - { name: "published", label: "Publiserad", widget: "datetime", date_format: "YYYY-MM-DD" }

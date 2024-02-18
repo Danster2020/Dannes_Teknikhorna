@@ -4,7 +4,7 @@ image: images/E45D46B6-D489-44A1-8A62-976DC4CD875A_1_105_c.jpeg
 title: Bygge av 3D-skrivare (MK3S)
 description: Efter Mycket huvudvärk av de föregående skrivarna bestämde jag mig
   för att investera i en pålitlig skrivare, en Prusa i3 MK3S.
-featured: -1
+featured: "-1"
 published: 2021-07-24
 ---
 Skrivaren kom som ett kit och tog lite mindre än en vecka att bygga ihop (med kalibrering och programvara). Efter det var det i stort sett bara att mata in ett filament och trycka på skriv ut så skötte den allt utan problem från start till slut.

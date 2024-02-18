@@ -3,7 +3,7 @@ slug: ekonomiapp
 image: images/screenshot_7.png
 title: Ekonomiappen
 description: Webbapplikation skapad med hjälp av Flask, Heroku och Tailwind CSS.
-featured: 0
+featured: "0"
 published: 2021-08-15
 ---
 Ekonomiappen skapades för att underlätta översikten på utgifter och därmed kunna planera ekonomin bättre.
