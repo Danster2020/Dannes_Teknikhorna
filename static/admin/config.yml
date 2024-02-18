@@ -46,8 +46,8 @@ collections:
           name: "featured",
           label: "Featured",
           widget: "select",
-          options: [-1, 0, 1, 2],
-          default: -1,
+          options: ["-1", "0", "1", "2"],
+          default: "-1",
           hint: "Ordning på indexsidan. '-1': ej featured.",
         }
       - { name: "published", label: "Publiserad", widget: "datetime" }
