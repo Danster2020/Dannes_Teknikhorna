@@ -6,7 +6,7 @@ backend:
   repo: Danster2020/Dannes_Teknikhorna
   branch: main
 
-media_folder: /images
+media_folder: images
 # public_folder: /uploads
 
 collections:
