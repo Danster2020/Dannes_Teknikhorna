@@ -4,4 +4,6 @@ image: https://i0.wp.com/tabletoptogether.com/wp-content/uploads/2018/05/pic3482
 title: Brädspel online
 description: Brädspelet Flamme Rouge byggt i React med ramverket Boardgame.io
 ---
-Mer info inom kort...
+Brädspelet Flamme Rouge byggt i React med ramverket Boardgame.io
+
+Mer info kommer när projektet är klart.
