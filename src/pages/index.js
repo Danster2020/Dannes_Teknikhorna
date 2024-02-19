@@ -34,7 +34,7 @@ const IndexPage = () => (
           whileInView={{
             opacity: 1,
             transition: {
-              duration: 1.5,
+              duration: 0.5,
             },
           }}>
           Välkommen till min <br></br> teknikhörna!
