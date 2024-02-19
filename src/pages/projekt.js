@@ -45,7 +45,7 @@ const ProjektPage = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {frontmatter: {published: DESC}}) {
         edges {
           node {
             id
