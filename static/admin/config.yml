@@ -34,6 +34,7 @@ collections:
           hint: "Titel som visas på sidan",
           required: true,
         }
+      - { name: "image", label: "Bild", widget: "image", required: true }
       - {
           name: "description",
           label: "Beskrivning",
@@ -41,7 +42,7 @@ collections:
           hint: "Kort text om projektet.",
           required: true,
         }
-      - { name: "image", label: "Bild", widget: "image", required: true }
+      - { name: body, label: Body, widget: markdown }
       - {
           name: "featured",
           label: "Featured",
