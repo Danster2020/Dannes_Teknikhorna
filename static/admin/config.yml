@@ -22,7 +22,7 @@ collections:
           hint: "sökvägen som visas i URL:en. T.ex /hem",
           pattern:
             [
-              "^[A-Za-z0-9_-]*$",
+              "^[A-Za-z0-9-]*$",
               "Får endast innehålla bokstäver eller siffror",
             ],
           required: true,

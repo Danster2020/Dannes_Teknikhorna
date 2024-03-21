@@ -1,5 +1,5 @@
 ---
-slug: flamme_rouge
+slug: flamme-rouge
 title: Flamme Rouge
 image: images/flamme_rouge_wide.png
 description: Digitalisering av ett brädspel med online multiplayer.
