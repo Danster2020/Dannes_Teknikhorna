@@ -10,6 +10,7 @@ const FeaturedPosts = () => {
   query {
     allMarkdownRemark(
       filter: { frontmatter: { featured: { ne: "-1" } } }
+      sort: {frontmatter: {featured: ASC}}
     ) {
       edges {
         node {
