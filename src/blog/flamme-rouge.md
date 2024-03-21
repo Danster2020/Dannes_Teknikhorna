@@ -3,7 +3,7 @@ slug: flamme-rouge
 title: Flamme Rouge
 image: images/flamme_rouge_wide.png
 description: Digitalisering av ett brädspel med online multiplayer.
-featured: "-1"
+featured: "1"
 published: 2024-03-21T13:16:01.450Z
 ---
 # Status
