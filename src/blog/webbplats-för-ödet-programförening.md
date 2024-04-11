@@ -3,7 +3,7 @@ slug: odet-forening-webbplats
 title: Webbplats för Ödet Programförening
 image: images/odethh_website.png
 description: Byggde om Ödet Programförenings webbplats som tidiagre var skapat i
-  Wordpress till Gatbsy JS.
+  Wordpress till Gatsby JS.
 featured: "-1"
 published: 2023-04-11
 ---
