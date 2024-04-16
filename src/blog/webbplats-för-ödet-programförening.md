@@ -4,7 +4,7 @@ title: Webbplats för Ödet Programförening
 image: images/odethh_website.png
 description: Byggde om Ödet Programförenings webbplats som tidiagre var skapat i
   Wordpress till Gatsby JS.
-featured: "-1"
+featured: "2"
 published: 2023-04-11
 ---
 Webbplatsen är live på <https://odethh.se/>
