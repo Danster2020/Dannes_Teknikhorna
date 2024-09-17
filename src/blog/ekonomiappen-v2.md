@@ -3,7 +3,7 @@ slug: ekonomiappenv2
 title: Ekonomiappen V2
 image: images/ek2.png
 description: Webbapplikation skapad med hjälp av React och Tailwind CSS.
-featured: "-1"
+featured: "0"
 published: 2024-09-17
 ---
 En ny version av Ekonomiappen skapades för att lättare kunna utveckla nya funktioner och underhålla den.
