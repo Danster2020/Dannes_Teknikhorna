@@ -8,7 +8,9 @@ published: 2024-09-17
 ---
 En ny version av Ekonomiappen skapades för att lättare kunna utveckla nya funktioner och underhålla den.
 
-\*\*Webbappen finns live på:\*\* \[https://ekonomi2.dannesteknikhorna.se](https://ekonomi.dannesteknikhorna.se).
+\*\*Webbappen finns live på:\*\*
+
+<https://ekonomi2.dannesteknikhorna.se>
 
 \## Användna resurser
 
